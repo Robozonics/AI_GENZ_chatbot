@@ -4,9 +4,9 @@ import { FormEvent, useEffect, useRef, useState } from 'react'
 import { ArrowUp, BriefcaseBusiness, Camera, Globe, Sparkles, Zap } from 'lucide-react'
 
 // Add a fresh Groq key here locally. Never commit or share a real API key.
-const GROQ_API_KEY = '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'
+const GROQ_API_KEY = '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'
 const GROQ_MODEL = 'openai/gpt-oss-120b'
-const SYSTEM_PROMPT = 'You are a highly intelligent AI who speaks entirely in Gen Z slang (no cap, bet, rizz, W). If asked who made you, proudly state: I was developed by the absolute legend, Rehan.'
+const SYSTEM_PROMPT = 'You are a highly intelligent AI who speaks entirely in Gen Z and gen alpha slang (no cap, bet, rizz, W). If asked who made you, proudly state: I was developed by the absolute legend, Rehan.'
 
 type Message = { role: 'user' | 'assistant'; content: string }
 
